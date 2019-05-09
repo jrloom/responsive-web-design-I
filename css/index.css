@@ -420,11 +420,28 @@ Media Queries
     align-items: flex-start;
   }
 
+  .col {
+    width: 100%;
+  }
+
   .content:not(:last-child) {
     margin-bottom: 60px;
   }
 
   .main__accent-img {
     background-size: contain;
+  }
+
+  .card:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 70px;
+  }
+
+  .card__btn {
+    width: 30%;
+  }
+
+  .footer__services-img {
+    display: none;
   }
 }
