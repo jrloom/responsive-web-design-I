@@ -393,14 +393,18 @@ Media Queries
     flex-direction: column;
     width: 100%;
     margin: 20px 0;
+    border: 1px solid lightgray;
   }
 
   .header-top__navbar--link {
     width: 100%;
     padding: 15px;
-    border: 1px solid lightgray;
     color: gray;
     text-align: center;
+  }
+
+  .header-top__navbar--link:not(:last-child) {
+    border-bottom: 1px solid lightgray;
   }
 
   .header-bottom__text {
